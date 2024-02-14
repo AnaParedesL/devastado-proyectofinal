@@ -1,0 +1,66 @@
+/*footer*/
+
+footer{
+    width: 100%;
+    position: absolute;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo2{
+    height: 80px;
+    margin-bottom: 1rem ;
+}
+
+.contenedor-footer{
+    width: 100%;
+}
+
+.iconos-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.iconos-sociales a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(65, 63, 63);
+    margin: 10px;
+    border-radius: 100px;
+    i{
+        font-size: 30px;
+        color: black;
+        opacity: 0.9;
+    }
+}
+
+/*hover para iconos*/
+.iconos-sociales a:hover{
+    background-color: black;
+    transition: 0.5s;
+    i{
+        color: whitesmoke;
+        transition: 0.5;
+    }
+}
+.final-footer{
+    background-color: black;
+    text-align: center;
+    p{
+        color: rgb(71, 69, 69);
+        margin-top: 10px;
+    }
+}
+
+
+.diseñador{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+

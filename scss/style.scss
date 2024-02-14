@@ -1,0 +1,31 @@
+//import 
+@import"./componentes/reset";
+@import"./componentes/mixin";
+@import"base/variables";
+@import"./componentes/mediaq";
+@import"./componentes/home";
+@import"./componentes/trabajos";
+@import"./componentes/sobre-mi";
+@import"./componentes/ubicacion";
+@import"./componentes/contacto";
+@import"./componentes/footer";
+
+
+ /*body*/
+body{ background-color: $color-background;
+font-family:sans-serif;
+}
+
+header{
+    nav{
+    .navbar{ background-color: $color-background
+}
+.navbar-nav .nav-link{color: whitesmoke;}
+
+.navbar-brand { color: whitesmoke;}
+a{color: whitesmoke;}
+}
+}
+
+
+

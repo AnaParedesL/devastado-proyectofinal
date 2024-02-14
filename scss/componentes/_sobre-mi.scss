@@ -1,0 +1,25 @@
+/*sobre mi*/
+
+.sobre-mi{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    text-align: justify;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    padding: 50px;
+
+    p{
+    font-size:18px ;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 30px;
+    }
+}    
+
+.img-sobre-mi{
+    height: 360px;
+    margin: 1rem;
+    padding: 10px;
+}

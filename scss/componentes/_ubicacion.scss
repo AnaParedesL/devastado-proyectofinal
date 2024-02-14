@@ -1,0 +1,9 @@
+/*ubicacion*/
+
+.ubicacion{
+    @include flex;
+    p{
+        margin: 40px;
+        color: grey;
+    }
+}

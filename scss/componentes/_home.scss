@@ -1,0 +1,29 @@
+/*home*/
+
+section{
+    .quien-soy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;}
+
+    .que-hago{display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;}
+    }
+
+    .contactame{
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .contactame h2{
+        text-decoration: none;
+        color: rgb(63, 62, 62);
+    }
