@@ -6,83 +6,6 @@
   box-sizing: border-box;
 }
 
-/*tamaños tablet y mobile*/
-@media (max-width: 768px) {
-  /*trabajos*/
-  .contenedor-uno, .contenedor-dos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    gap: 1rem;
-    margin: 20px;
-  }
-  /*contacto*/
-  .container {
-    padding: 20px;
-  }
-  .contenedor-contacto {
-    grid-template-columns: 1fr;
-  }
-  .form-contacto h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: rgb(60, 60, 61);
-  }
-  /*ubicacion*/
-  .ubicacion {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 1rem;
-    margin: 20px;
-  }
-  .ubicacion p {
-    color: grey;
-  }
-  /*sobre mi*/
-  .sobre-mi {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 40;
-  }
-}
-@media (max-width: 320) {
-  /*trabajos*/
-  .contenedor-uno, .contenedor-dos {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
-    gap: 1rem;
-    margin: 20px;
-  }
-  /*contacto*/
-  .info-contacto p {
-    font-size: 10px;
-  }
-  /*ubicacion*/
-  .ubicacion {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    gap: 1rem;
-    margin: 20px;
-  }
-  .ubicacion p {
-    color: grey;
-  }
-  .ubicacion .iframe {
-    width: auto;
-    height: auto;
-  }
-  /*sobre mi*/
-  .sobre-mi {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 30;
-  }
-}
 /*home*/
 section .quien-soy {
   display: flex;
@@ -120,7 +43,7 @@ section .que-hago {
   gap: 1rem;
   margin: 20px;
 }
-.contenedor-uno .img {
+.contenedor-uno img {
   width: 100%;
 }
 
@@ -131,7 +54,7 @@ section .que-hago {
   gap: 1rem;
   margin: 20px;
 }
-.contenedor-dos .img {
+.contenedor-dos img {
   width: 100%;
 }
 
@@ -367,6 +290,100 @@ header nav .navbar-brand {
 }
 header nav a {
   color: whitesmoke;
+}
+
+/*tamaños tablet y mobile*/
+@media screen and (max-width: 768px) {
+  /*trabajos*/
+  .contenedor-uno, .contenedor-dos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    margin: 20px;
+  }
+  /*contacto*/
+  .container {
+    padding: 20px;
+  }
+  .contenedor-contacto {
+    grid-template-columns: 1fr;
+  }
+  .form-contacto h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(60, 60, 61);
+  }
+  /*ubicacion*/
+  .ubicacion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .ubicacion p {
+    color: grey;
+  }
+  .ubicacion iframe {
+    width: auto;
+    height: 300px;
+  }
+  /*sobre mi*/
+  .sobre-mi {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 40;
+  }
+}
+@media screen and (min-width: 320) and (max-width: 768) {
+  /*trabajos*/
+  .contenedor-uno, .contenedor-dos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+    margin: 20px;
+  }
+  /*contacto*/
+  .info-contacto p {
+    font-size: 10px;
+  }
+  .info-contacto i {
+    font-size: 8px;
+  }
+  /*ubicacion*/
+  .ubicacion {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  .ubicacion p {
+    color: grey;
+  }
+  .ubicacion iframe {
+    width: 300px;
+    height: auto;
+  }
+  /*sobre mi*/
+  .sobre-mi {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30;
+  }
+  /*footer*/
+  .logo2 {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

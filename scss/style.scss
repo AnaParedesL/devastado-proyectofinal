@@ -2,7 +2,6 @@
 @import"./componentes/reset";
 @import"./componentes/mixin";
 @import"base/variables";
-@import"./componentes/mediaq";
 @import"./componentes/home";
 @import"./componentes/trabajos";
 @import"./componentes/sobre-mi";
@@ -27,5 +26,5 @@ a{color: whitesmoke;}
 }
 }
 
-
+@import"./componentes/mediaq";
 

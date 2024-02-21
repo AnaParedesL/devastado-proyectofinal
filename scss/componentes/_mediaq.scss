@@ -1,6 +1,6 @@
 /*tamaños tablet y mobile*/
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
 
     /*trabajos*/
     .contenedor-uno, .contenedor-dos{
@@ -31,10 +31,15 @@
     grid-template-rows: auto ;
     gap: 1rem;
     margin: 20px; 
+    justify-content: center;
+    align-items: center;
 
     p {
         color: grey;
     }
+
+    iframe{width: auto;
+    height: 300px;}
     }
 
     /*sobre mi*/
@@ -46,7 +51,7 @@
 }
 }
 
-@media(max-width:320) {
+@media screen and (min-width:320) and (max-width:768) {
     
 
     /*trabajos*/
@@ -61,7 +66,7 @@
         /*contacto*/
         .info-contacto {
             p{font-size: 10px;}
-            
+            i{font-size: 8px;}
         }
 
         /*ubicacion*/
@@ -71,12 +76,15 @@
         grid-template-rows: auto ;
         gap: 1rem;
         margin: 20px; 
+        justify-content: center;
+        align-items: center;
 
         p {
             color: grey;
         }
-        .iframe{ width: auto;
+        iframe{ width: 300px;
         height: auto;}
+        align-items: center;
         }
 
         /*sobre mi*/
@@ -86,4 +94,8 @@
             align-items: center;
             padding: 30;
     }
+    /*footer*/
+    .logo2{
+        width: 300px;
     }
+} 
