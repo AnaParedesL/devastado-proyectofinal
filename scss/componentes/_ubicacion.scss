@@ -2,8 +2,9 @@
 
 .ubicacion{
     @include flex;
-    p{
+    h1{
         margin: 40px;
         color: grey;
+        font-size: 20px;
     }
 }

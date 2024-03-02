@@ -6,15 +6,16 @@
     align-items: center;
     flex-direction: row;
     text-align: justify;
-    margin-top: 80px;
-    margin-bottom: 200px;
+    margin-top: 15px;
     padding: 50px;
 
+    h1{ color: black;}
     p{
     font-size:18px ;
     margin-right: 10px;
     margin-left: 10px;
     padding: 30px;
+    color: $color-texto-principal;
     }
 }    
 

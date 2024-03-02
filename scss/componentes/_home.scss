@@ -8,6 +8,7 @@ section{
     justify-content: center;
     margin: 10px;
     padding: 10px;}
+    color: $color-texto-principal;
 
     .que-hago{display: flex;
         flex-direction: column;
@@ -15,6 +16,7 @@ section{
         justify-content: center;
         margin: 10px;
         padding: 10px;}
+        color:$color-texto-principal
     }
 
     .contactame{
